@@ -1,1 +1,56 @@
+Internet
+
+	1- Redes = conexao entre 2 ou mais computadores
+	2- Backbone = optimizar rede
+	3- Provedor de acesso = quem administra o acesso ao backbone
+	4- Provedor de servico = forma de administracao (conexao)
+	5- Usuario final = nos
+
+TCP/IP ports routers switches modems
+
+	-TCP modo de comunicacao entre pcs pela internet
+	-IP protocolo de internet x camadas (fisica-hardware, rede-IP, transporte-TCP/UDP, app-FTP-SMTP-HTTP)
+
+Portas
+	-20 ftp
+	-22 SSH
+	-25 SMTP
+	-53 DNS
+	-80 HTTP
+	-443 HTTPS
+	-3306 mySQL 33060 new x
+
+Modem Modulator-demodulator
+	-converte dados em formato para transmisao
+Roteador
+	-distribui inet para um ou mais disp de uma rede
+	-comunicacao entre redes
+	-nao optimizado
+Switch
+	- mesma funcao roteador porem inteligente
+
+Cell iNet outros disp
+	-dados moveis custo 0 para op
+	-wi-fi - IEEE 802.11, a, b, g, n,
+	-seg: WEP, WPA, WPA2
+	-impressora, scanner, chromecast
+	-bluetooth: classe = potencia/distancia, versao = vel de trans.
+
+Browser, websites, apps, webserver
+	-browser interpreta LP, L de marcacao, conteudo multimedia, plug-ins/add-ons, cache-cookies
+	-site, app, e-commerce: diversos propositos, diversas LP, 
+	-apps executados no browser, atualmente substituindo websites
+	-diferenca entre software e applicativo esta diminuindo
+	-webserver: estatico(fisico) e dinamico(software presente no estatico: file-server, app-server,database)
+
+Stacks -front -end -fullstack
+	-ambientes e ferramentas de integracao
+	-capacidade e limitacao de performance
+	-FRONT: site,software,app,webservice, UI user interface,UX user experience
+	-BACK: ligacao interfaces - servers, databases, validations, MySQL,Oracle,PHP,Java,nodeJS
+	-FULL: desenvolvimento/execucao app/sw
+
+Linguagens de Programacao(Web)
+	-Principais: HTML(markup),CSS,Javascript/ PHP/.Net/ASP/Java/Ruby/Python/Perl/C#
+
 
