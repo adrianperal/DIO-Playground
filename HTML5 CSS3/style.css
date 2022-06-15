@@ -1,0 +1,12 @@
+body {
+    background-color: hsl(190, 67%, 48%);
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.HeaderH1 {
+    color: hsl(0, 0%, 0%);
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: center;
+}
