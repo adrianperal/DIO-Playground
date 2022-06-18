@@ -1,0 +1,13 @@
+.flex {
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+}
