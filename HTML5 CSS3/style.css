@@ -1,12 +1,64 @@
 body {
-    background-color: hsl(190, 67%, 48%);
-    margin-left: 20px;
-    font-family: 'Roboto', sans-serif;
+  background-color: hsl(190, 67%, 48%);
+  background-image: url(https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60);
+  background-size: cover;
+  margin: 50px;
+  max-width: 1000px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
-.HeaderH1 {
-    color: hsl(0, 0%, 0%);
-    font-size: 2.5em;
-    font-weight: 300;
-    text-align: center;
+#profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 41%;
+}
+
+.topHeader h1 {
+  color: #000000;
+  text-shadow: #ffffff 0px 0px 10px;
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+article {
+  background-color: #81e714;
+  border-color: #000000;
+  border-width: 3px;
+  border-style: dotted;
+  border-radius: 15px;
+  font-size: 20px;
+}
+article li {
+  color: #000000;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.curriculum h3 {
+  color: rgb(255, 0, 0);
+  padding-left: 10px;
+  color: #000000;
+  font-style: italic;
+  text-align: center;
+}
+
+.updates {
+  border: 2px solid rgb(0, 0, 0);
+  color: #000000;
+  border-radius: 15px;
+}
+
+aside {
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+footer a {
+    color: #0062ff;
+    text-decoration: none;
 }
