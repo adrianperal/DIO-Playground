@@ -6,6 +6,8 @@ body {
   max-width: 1000px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 
 #profile-pic {
@@ -59,6 +61,8 @@ aside {
 }
 
 footer a {
-    color: #0062ff;
+    color: #eeff00;
     text-decoration: none;
+    text-shadow: #000000 0px 0px 10px;
+    font-size: larger;
 }
