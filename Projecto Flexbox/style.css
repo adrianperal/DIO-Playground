@@ -1,13 +1,20 @@
 .flex {
-    max-width: 300px;
+    max-width: 480px;
     padding: 10px;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 0, 0);
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .item {
-    background-color: aqua;
+    background-color: rgb(255, 255, 0);
+    border: 1px solid black;
     margin: 5px;
     padding: 5px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+#i1 {
+    width: 100%;
 }

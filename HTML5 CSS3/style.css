@@ -2,19 +2,16 @@ body {
   background-color: hsl(190, 67%, 48%);
   background-image: url(https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60);
   background-size: cover;
-  margin: 50px;
-  max-width: 1000px;
+  background-repeat: no-repeat;
+  margin: 10px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
 }
 
-#profile-pic {
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
-    margin-left: 41%;
+header {
+  width: 100%;
 }
 
 .topHeader h1 {
@@ -25,44 +22,81 @@ body {
   text-transform: uppercase;
 }
 
-article {
-  background-color: #81e714;
-  border-color: #000000;
-  border-width: 3px;
-  border-style: dotted;
-  border-radius: 15px;
-  font-size: 20px;
-}
-article li {
-  color: #000000;
+.profile-pic {
+  width: 100%;
+  margin: 0 auto 30px; 
 }
 
-ul {
-    list-style-type: square;
+.profile-pic img {
+  height: 200px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+}
+
+article {
+  background-color: hsl(0, 0%, 32%);
+  border-color: #000000;
+  border-width: 2px;
+  border-style: groove;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto auto;
 }
 
 .curriculum h3 {
   color: rgb(255, 0, 0);
   padding-left: 10px;
-  color: #000000;
+  color: #26a905;
   font-style: italic;
   text-align: center;
+  text-transform: uppercase;
+  text-shadow: #000000 0px 0px 5px;
+}
+
+article li {
+  color: #26ae00;
+}
+
+article ul {
+  list-style-type: square;
 }
 
 .updates {
   border: 2px solid rgb(0, 0, 0);
   color: #000000;
   border-radius: 15px;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(1, 85, 159);
+  width: 20%;
+  margin: 0 auto auto;
 }
 
-aside {
-  padding: 10px;
-  background-color: aliceblue;
+.updates h3 {
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: #ffffff 0px 0px 5px;
+}
+
+.updates h4 {
+  text-align: center;
+}
+
+.updates p {
+  text-overflow: clip;
+}
+
+section {
+  width: 100%;
 }
 
 footer a {
-    color: #eeff00;
-    text-decoration: none;
-    text-shadow: #000000 0px 0px 10px;
-    font-size: larger;
+  color: #eeff00;
+  text-decoration: none;
+  text-shadow: #000000 0px 0px 10px;
+  font-size: larger;
 }
