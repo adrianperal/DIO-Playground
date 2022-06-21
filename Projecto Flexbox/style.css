@@ -1,20 +1,31 @@
-.flex {
-    max-width: 480px;
-    padding: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
+.flex-container {
+  max-width: 720px;
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  margin-bottom: 20px;
+  flex-flow: row wrap;
 }
 
 .item {
-    background-color: rgb(255, 255, 0);
-    border: 1px solid black;
-    margin: 5px;
-    padding: 5px;
-    min-width: 100px;
-    min-height: 100px;
+  background-color: rgb(255, 255, 0);
+  border: 1px solid black;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
 }
 
-#i1 {
-    width: 100%;
+.fg-0 {
+  flex-grow: 0;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fs-0 {
+  flex-shrink: 0;
+}
+
+.fs-1 {
+  flex-shrink: 1;
 }
