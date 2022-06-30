@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "eslint": "^8.18.0",
+    "jshint": "^2.13.4"
+  }
+}
