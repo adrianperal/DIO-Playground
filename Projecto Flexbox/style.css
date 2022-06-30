@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -9,20 +9,20 @@
 
 body {
   width: 100%;
-  min-height: 100vh;
-  background-color: #ffffff;
+  background-color: #eeeeee;
   margin: 0;
   padding: 0;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .flex-container {
-  border: 1px solid #000000;
   display: flex;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
   width: 60%;
-  height: 100vh;
+  height: auto;
 }
 
 .cell-pic {
@@ -33,25 +33,124 @@ body {
 }
 
 .cell-pic img {
-  width: 50rem;
+  display: flex;
+  width: 20rem;
 }
 
 .actions {
   display: flex;
   flex-flow: column nowrap;
-  width: auto;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
   margin: auto;
+  padding: 5%;
+}
+
+.connect {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px 0;
 }
 
 #insta-logo {
-  width: 30%;
-  height: auto;
+  display: flex;
+  width: 60%;
+}
+.connect .profile-pic {
+  display: flex;
+  justify-content: center;
 }
 
-.profile-pic img{
-  width: 25%;
+.connect .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.download a img {
+.connect .login p {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fcfcfc;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0 5px 0;
+  border: 1px solid #cccccc;
+}
+
+.connect .login a {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #0267ff;
+  background-color: #0267ff;
+  color: #ffffff;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.connect .profile-pic img {
+  display: flex;
+  border: 1px solid #cccccc;
   width: 25%;
+  border-radius: 50%;
+}
+
+.signup {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+
+.signup a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0267ff;
+  background-color: #0267ff;
+  color: #ffffff;
+  margin: 5px 0;
+  width: 100px;
+  padding: 5px;
+  border-radius: 20px;
+}
+.get-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.get-app p {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 10px;
+}
+
+.get-app .download {
+  display: flex;
+  justify-content: center;
+}
+
+.get-app .download a {
+  display: flex;
+  justify-content: space-around;
+}
+
+.get-app .download a img {
+  display: flex;
+  width: 75%;
 }
