@@ -43,6 +43,7 @@ body {
   align-items: center;
   width: 50%;
   padding: 2rem;
+  margin: 1em;
   min-width: 350px;
   max-width: 450px;
 }
@@ -59,7 +60,7 @@ body {
 
 #insta-logo {
   display: flex;
-  padding: 10%;
+  padding: 5%;
 }
 .connect .profile-pic {
   display: flex;
@@ -78,6 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10%;
 }
 
 .connect .login p {
@@ -155,12 +157,24 @@ body {
 }
 
 @media (max-width: 650px) {
+  body {
+    background-color: #ffffff;
+  }
+  
   .flex-container{
     width: 100%;
   }
   
   .actions {
     width: 60%;
+  }
+
+  .connect{
+    border-color: #ffffff;
+  }
+
+  .signup {
+    border-color: #ffffff;
   }
 
   .cell-pic{
