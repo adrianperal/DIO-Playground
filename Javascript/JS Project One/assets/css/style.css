@@ -1,0 +1,61 @@
+body {
+  background-color: #eeeeee;
+}
+
+.header h1 {
+  color: #00b7ff;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border-radius: 25px;
+  background-color: #00b7ff;
+}
+
+.to-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border-radius: 25px;
+  background-color: #00ff6a;
+}
+
+.counter .contador {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.contador button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 20%;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.contador span {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+}

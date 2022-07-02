@@ -5,5 +5,14 @@
 		}
 	],
 	"settings": {
+		"eslint.alwaysShowStatus": false,
+		"eslint.options": {
+			"env":{
+				"es6": true
+			},
+			"parserOptions":{
+				"ecmaVersion": 7
+			}
+		}
 	}
 }
