@@ -8,3 +8,4 @@ let hobby = 'coding';
 console.log(show.showAge(name, age));
 console.log(show.showCity(name, city));
 console.log(show.showHobby(name, hobby));
+console.log(show.addFunc(1, 2));

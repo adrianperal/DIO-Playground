@@ -9,7 +9,7 @@ someArray.forEach((element, i) => {
 someArray.splice(1, 3);
 console.log(someArray);
 
-console.log('----------');
+console.log("----------");
 
 let objeto = {
   number: 1,
@@ -23,7 +23,7 @@ objeto.number = number;
 console.log(objeto);
 
 // Palindrome exercise
-console.log('----------');
+console.log("----------");
 function isPalindrome(string) {
   if (!string) return "invalid string";
 
@@ -46,10 +46,10 @@ let result = isPalindrome(string);
 alert(`Palindrome Result: ${result}`); */
 
 console.log(isPalindrome2("anana"));
-console.log('----------');
+console.log("----------");
 // array working exercise
 
-let array = [4,8,15,16,23,42];
+let array = [4, 8, 15, 16, 23, 42];
 console.log(array);
 function replaceEvens(array) {
   if (array.length == 0) {
@@ -63,7 +63,7 @@ function replaceEvens(array) {
   } */
 
   array.forEach((element, index) => {
-    if(element % 2 == 0){
+    if (element % 2 == 0) {
       array[index] = 0;
     }
   });
@@ -71,5 +71,42 @@ function replaceEvens(array) {
   return array;
 }
 
-array = replaceEvens(array)
+array = replaceEvens(array);
 console.log(array);
+
+const alunos = [
+  { nome: "João", nota: 7.3, bolsista: false },
+  { nome: "Maria", nota: 9.2, bolsista: true },
+  { nome: "Pedro", nota: 7.8, bolsista: false },
+  { nome: "Ana", nota: 8.7, bolsista: true },
+  { nome: "Bruna", nota: 6.9, bolsista: true },
+  { nome: "Carlos", nota: 8.5, bolsista: false },
+];
+
+let alunosFormados = [];
+
+function vaiColar(alunos, media) {
+  for (let aluno of alunos) {
+    const { nota, nome } = aluno;
+    if (nota >= media) {
+      alunosFormados.push(nome);
+    }
+  }
+}
+
+vaiColar(alunos, 8.0);
+console.log(alunosFormados);
+
+function caclulaIdade(anos) {
+  return `Daqui a ${anos} anos, ${this.nome} terá ${
+    this.idade + anos
+  } anos de idade.`;
+}
+
+const pessoa = {
+  nome: "João",
+  idade: 20,
+};
+
+console.log(caclulaIdade.call(pessoa, 10));
+console.log(caclulaIdade.apply(pessoa, [10]));
