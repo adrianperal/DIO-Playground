@@ -22,7 +22,7 @@ interface ICanino extends IAnimal {
   raca: string;
 }
 
-type IFelinoOuCanino = IFelino | ICanino; // union type
+type IFelinoOuCanino = IFelino | ICanino; // union type - not doing what expected?
 
 const animal: IFelinoOuCanino = {
   nome: "Rex",
@@ -39,6 +39,8 @@ const felino: IFelinoOuCanino = {
   raca: "Labrador", // ts não é deveria permitir?
   //roar: (decivelNumber) => `${felino.nome} roeu a ${decivelNumber}dB`,
 };
+
+// DOM with TS
 
 const input = document.getElementById("input") as HTMLInputElement;
 input.addEventListener("input", (event) => {
